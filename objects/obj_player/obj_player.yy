@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_carita",
-    "path": "sprites/spr_carita/spr_carita.yy",
+    "name": "spr_bat_man_idle",
+    "path": "sprites/spr_bat_man_idle/spr_bat_man_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,10 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":16.0,"y":6.0,},
-    {"x":64.0,"y":6.0,},
-    {"x":64.0,"y":64.0,},
-    {"x":16.0,"y":64.0,},
+    {"x":4.0,"y":24.0,},
+    {"x":33.0,"y":24.0,},
+    {"x":33.0,"y":59.0,},
+    {"x":4.0,"y":59.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
