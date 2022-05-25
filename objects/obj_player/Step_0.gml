@@ -3,6 +3,9 @@ scr_get_input();
 if(right || left || up || down){
 	state = src_state_move;
 }
+else if(attack){
+	state = scr_state_attack;
+}
 else{
 	state = scr_state_idle;
 }

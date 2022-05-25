@@ -2,8 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_get_input(){
 	//Keyboard input
-	right = keyboard_check(vk_right);
-	left = keyboard_check(vk_left);
-	up = keyboard_check(vk_up);
-	down = keyboard_check(vk_down);
+	right = keyboard_check(ord("D"));
+	left = keyboard_check(ord("A"));
+	up = keyboard_check(ord("W"));
+	down = keyboard_check(ord("S"));
+	attack = keyboard_check(ord("J"));
 }
