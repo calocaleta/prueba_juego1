@@ -6,5 +6,5 @@ function scr_get_input(){
 	left = keyboard_check(ord("A"));
 	up = keyboard_check(ord("W"));
 	down = keyboard_check(ord("S"));
-	attack = keyboard_check(ord("J"));
+	attack = keyboard_check(ord("J "));
 }

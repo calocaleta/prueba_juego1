@@ -12,5 +12,9 @@ function src_state_move(){
 	}else if(up){
 		y -= spd;
 	}
+	
+	if(!right && !left && !up && !down){
+		state = scr_state_idle;
+	}
 	sprite_index = spr_bat_man_running;
 }
