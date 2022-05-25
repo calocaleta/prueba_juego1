@@ -7,11 +7,20 @@ if(keyboard_check(vk_right)){
 	x -= spd;
 	sprite_index = spr_bat_man_running;
 	image_xscale = -1;
-}if(keyboard_check(vk_down)){
+}else if(keyboard_check(vk_down)){
 	y += spd;
 	sprite_index = spr_bat_man_running;
 }else if(keyboard_check(vk_up)){
 	y -= spd;
 	sprite_index = spr_bat_man_running;
+}else{
+	sprite_index = spr_bat_man_idle;
 }
 depth = -y;
+
+if(hp<=0){
+	room_goto(RoomGameOver);
+}
+
+show_debug_message("Nos queda esto de vida:");
+show_debug_message(hp);
