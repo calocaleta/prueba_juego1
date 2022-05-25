@@ -1,22 +1,12 @@
 /// @description Este evento corre en cada frame
 scr_get_input();
-if(right){
-	x += spd;
-	sprite_index = spr_bat_man_running;
-	image_xscale = 1;
-}else if(left){
-	x -= spd;
-	sprite_index = spr_bat_man_running;
-	image_xscale = -1;
-}else if(down){
-	y += spd;
-	sprite_index = spr_bat_man_running;
-}else if(up){
-	y -= spd;
-	sprite_index = spr_bat_man_running;
-}else{
-	sprite_index = spr_bat_man_idle;
-	}
+if(right || left || up || down){
+	state = src_state_move;
+}
+else{
+	state = scr_state_idle;
+}
+script_execute(state);
 depth = -y;
 
 

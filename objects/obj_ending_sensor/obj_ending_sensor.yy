@@ -3,7 +3,7 @@
     "name": "spr_goto",
     "path": "sprites/spr_goto/spr_goto.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
