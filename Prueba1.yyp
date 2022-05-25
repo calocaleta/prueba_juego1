@@ -9,6 +9,7 @@
     {"id":{"name":"obj_hazzard","path":"objects/obj_hazzard/obj_hazzard.yy",},"order":2,},
     {"id":{"name":"obj_goto_room_2","path":"objects/obj_goto_room_2/obj_goto_room_2.yy",},"order":3,},
     {"id":{"name":"spr_goto","path":"sprites/spr_goto/spr_goto.yy",},"order":7,},
+    {"id":{"name":"bgm_lights_out","path":"sounds/bgm_lights_out/bgm_lights_out.yy",},"order":0,},
     {"id":{"name":"spr_bat_man_running","path":"sprites/spr_bat_man_running/spr_bat_man_running.yy",},"order":1,},
     {"id":{"name":"spr_bat_man_idle","path":"sprites/spr_bat_man_idle/spr_bat_man_idle.yy",},"order":0,},
     {"id":{"name":"spr_hazzard","path":"sprites/spr_hazzard/spr_hazzard.yy",},"order":6,},

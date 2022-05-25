@@ -18,9 +18,6 @@ if(keyboard_check(vk_right)){
 }
 depth = -y;
 
-if(hp<=0){
-	room_goto(RoomGameOver);
-}
 
 show_debug_message("Nos queda esto de vida:");
 show_debug_message(hp);
