@@ -12,5 +12,8 @@ function scr_enemy_neo_idle(){
 	}
 	else{
 		sprite_index = spr_enemy_neo_idle;
+		if(alarm[0] <=0){
+			alarm[0] = room_speed *  3;
+		}
 	}
 }
