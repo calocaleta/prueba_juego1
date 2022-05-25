@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_carita","path":"sprites/spr_carita/spr_carita.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_game_over","path":"objects/obj_game_over/obj_game_over.yy",},"order":4,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"RoomGameOver","path":"rooms/RoomGameOver/RoomGameOver.yy",},"order":2,},
