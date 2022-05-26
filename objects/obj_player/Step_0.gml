@@ -22,4 +22,4 @@ if(hp<=0){
 }
 	
 show_debug_message("Nos queda esto de vida:");
-show_debug_message(hp);
+show_debug_message(obj_game_controller.player_hp);

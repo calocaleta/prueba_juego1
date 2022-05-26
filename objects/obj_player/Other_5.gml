@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(RoomEnding);
+obj_game_controller.player_hp = hp; 

@@ -3,4 +3,5 @@
 with(other){
 	image_blend = c_lime;
 	hp -= 1;
+	obj_game_controller.player_hp = hp; 
 }
