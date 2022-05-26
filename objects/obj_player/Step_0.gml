@@ -21,5 +21,5 @@ if(hp<=0){
 	room_goto(RoomGameOver);
 }
 	
-show_debug_message("Nos queda esto de vida:");
-show_debug_message(obj_game_controller.player_hp);
+// show_debug_message("Nos queda esto de vida:");
+//show_debug_message(obj_game_controller.player_hp);
