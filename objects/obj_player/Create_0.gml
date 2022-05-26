@@ -9,3 +9,5 @@ if(room == Room1){
 }
 
 state = scr_state_idle;
+h_dir = 1;
+attack_sensor = noone;
