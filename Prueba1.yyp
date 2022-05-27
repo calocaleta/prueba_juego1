@@ -5,6 +5,7 @@
     {"id":{"name":"spr_bat_man_attacking","path":"sprites/spr_bat_man_attacking/spr_bat_man_attacking.yy",},"order":2,},
     {"id":{"name":"RoomEnding","path":"rooms/RoomEnding/RoomEnding.yy",},"order":3,},
     {"id":{"name":"spr_enemy_neo_move","path":"sprites/spr_enemy_neo_move/spr_enemy_neo_move.yy",},"order":2,},
+    {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"order":12,},
     {"id":{"name":"obj_game_over","path":"objects/obj_game_over/obj_game_over.yy",},"order":4,},
     {"id":{"name":"scr_get_input","path":"scripts/scr_get_input/scr_get_input.yy",},"order":0,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},

@@ -23,3 +23,7 @@ if(hp<=0){
 	
 // show_debug_message("Nos queda esto de vida:");
 //show_debug_message(obj_game_controller.player_hp);
+
+if(pause && !instance_exists(obj_pause)){
+	instance_create_depth(0,0,-9999,obj_pause);
+}

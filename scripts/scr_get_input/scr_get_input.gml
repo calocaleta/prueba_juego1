@@ -7,4 +7,5 @@ function scr_get_input(){
 	up = keyboard_check(ord("W"));
 	down = keyboard_check(ord("S"));
 	attack = keyboard_check(ord("J "));
+	pause = keyboard_check_released(vk_escape);
 }
