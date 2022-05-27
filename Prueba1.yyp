@@ -28,6 +28,7 @@
     {"id":{"name":"bgm_lights_out","path":"sounds/bgm_lights_out/bgm_lights_out.yy",},"order":0,},
     {"id":{"name":"scr_state_idle","path":"scripts/scr_state_idle/scr_state_idle.yy",},"order":1,},
     {"id":{"name":"spr_bat_man_running","path":"sprites/spr_bat_man_running/spr_bat_man_running.yy",},"order":1,},
+    {"id":{"name":"shd_test","path":"shaders/shd_test/shd_test.yy",},"order":0,},
     {"id":{"name":"obj_ending","path":"objects/obj_ending/obj_ending.yy",},"order":6,},
     {"id":{"name":"src_state_move","path":"scripts/src_state_move/src_state_move.yy",},"order":0,},
     {"id":{"name":"spr_bat_man_idle","path":"sprites/spr_bat_man_idle/spr_bat_man_idle.yy",},"order":0,},
